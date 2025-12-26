@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 12px;
+  background: #1e1e1e;
+  color: #cccccc;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+.player {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+select,
+button,
+input[type='range'] {
+  background: #2d2d2d;
+  color: #cccccc;
+  border: 1px solid #3c3c3c;
+  padding: 4px 8px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3a3a3a;
+}
