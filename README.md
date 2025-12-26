@@ -7,6 +7,10 @@ Focus Sound is a lightweight music player for productivity, letting you enjoy at
 ---
 
 <img
+  src="https://github.com/ovcharovcoder/focus-sound/blob/main/images/3.png"
+  alt="img" />
+
+<img
   src="https://github.com/ovcharovcoder/focus-sound/blob/main/images/1.png"
   alt="img" />
 
@@ -61,3 +65,4 @@ Released under the MIT License
 2. Install dependencies: `npm install`
 3. Build the extension: `npm run build`
 4. Package it as a .vsix file: `vsce package`
+
