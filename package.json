@@ -1,0 +1,57 @@
+{
+  "name": "focus-sound",
+  "displayName": "Focus Sound",
+  "description": "Ambient and focus sounds directly inside VS Code to help you stay in flow.",
+  "version": "1.0.0",
+  "publisher": "ovcharovcoder",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ovcharovcoder/focus-sound"
+  },
+  "homepage": "https://github.com/ovcharovcoder/focus-sound",
+  "bugs": {
+    "url": "https://github.com/ovcharovcoder/focus-sound/issues"
+  },
+  "icon": "extension/icon.png",
+  "license": "MIT",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:focusSound.open"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "focusSound.open",
+        "title": "Focus Sound: Open Player"
+      }
+    ]
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "compile": "tsc -p .",
+    "build": "npm run clean && npm run compile",
+    "watch": "tsc -watch -p .",
+    "package": "npm run build && npm prune --production && vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.81.0",
+    "typescript": "^5.3.0",
+    "rimraf": "^5.0.5"
+  },
+  "keywords": [
+    "focus",
+    "sound",
+    "ambient",
+    "lofi",
+    "productivity",
+    "vs code",
+    "extension"
+  ]
+}
