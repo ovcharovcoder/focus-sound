@@ -43,4 +43,20 @@ Andriy Ovcharov
 
 ## 🪪 License
 
+---
+
+## 🧑‍💻 Development & Build
+
+- Clone the repository: <br>
+
+- Install dependencies:<br>
+  `npm install`
+
+- Build the extension:<br>
+  `npm run build`
+
+- Package it as a .vsix file:
+  `vsce package`
+
 Released under the MIT License
+
