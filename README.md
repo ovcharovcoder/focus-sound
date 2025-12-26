@@ -2,6 +2,8 @@
 
 Focus Sound is a lightweight music player for productivity, letting you enjoy atmospheric music directly in VS Code—perfect for coding, design, or deep focus.
 
+Note: All included audio tracks are for demonstration purposes only and remain the property of their respective authors.
+
 ---
 
 <img
@@ -65,6 +67,7 @@ Released under the MIT License
 
 - Package it as a .vsix file:<br>
   `vsce package`
+
 
 
 
