@@ -49,7 +49,7 @@ Released under the MIT License
 
 ## 🧑‍💻 Development & Build
 
-- Clone the repository: <br>
+- Clone the repository <br>
 
 - Install dependencies:<br>
   `npm install`
@@ -59,5 +59,6 @@ Released under the MIT License
 
 - Package it as a .vsix file:<br>
   `vsce package`
+
 
 
