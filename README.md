@@ -43,6 +43,8 @@ Andriy Ovcharov
 
 ## 🪪 License
 
+Released under the MIT License
+
 ---
 
 ## 🧑‍💻 Development & Build
@@ -57,7 +59,5 @@ Andriy Ovcharov
 
 - Package it as a .vsix file:<br>
   `vsce package`
-
-Released under the MIT License
 
 
