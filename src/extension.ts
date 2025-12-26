@@ -51,6 +51,8 @@ function getHtml(webview: vscode.Webview, extensionUri: vscode.Uri): string {
      <option value="Relax_1.mp3">Relax 1</option>
      <option value="Relax_2.mp3">Relax 2</option>
      <option value="Relax_3.mp3">Relax 3</option>
+     <option value="Relax_4.mp3">Relax 4</option>
+     <option value="Relax_5.mp3">Relax 5</option>
     </select>
 
     <button id="play">Play</button>
@@ -68,4 +70,5 @@ function getHtml(webview: vscode.Webview, extensionUri: vscode.Uri): string {
 }
 
 export function deactivate() {}
+
 
