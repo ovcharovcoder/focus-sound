@@ -31,7 +31,7 @@ To inspect an image:
 - Open the Command Palette: Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac)
 - Type and select the command:<br>
   **Focus Sound: Open Player**
-- In the dropdown, select a track (Relax 1, Relax 2, … Relax 9)
+- In the dropdown, select a track (Relax 1, Relax 2, Relax 3)
 - Use the Play / Pause buttons and volume slider to control playback
 
 ---
@@ -61,6 +61,7 @@ Released under the MIT License
 
 - Package it as a .vsix file:<br>
   `vsce package`
+
 
 
 
