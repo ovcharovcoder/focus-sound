@@ -8,6 +8,10 @@ Focus Sound is a lightweight music player for productivity, letting you enjoy at
   src="https://github.com/ovcharovcoder/focus-sound/blob/main/1.png"
   alt="img" />
 
+<img
+  src="https://github.com/ovcharovcoder/focus-sound/blob/main/2.png"
+  alt="img" />
+
 ## ✨ Features
 
 - More 20 LOFI & Chill tracks for focus and relaxation
@@ -61,6 +65,7 @@ Released under the MIT License
 
 - Package it as a .vsix file:<br>
   `vsce package`
+
 
 
 
