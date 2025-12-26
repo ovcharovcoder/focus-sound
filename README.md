@@ -55,8 +55,9 @@ Andriy Ovcharov
 - Build the extension:<br>
   `npm run build`
 
-- Package it as a .vsix file:
+- Package it as a .vsix file:<br>
   `vsce package`
 
 Released under the MIT License
+
 
