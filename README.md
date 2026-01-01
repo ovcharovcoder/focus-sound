@@ -62,9 +62,10 @@ Released under the MIT License
 ## 🧑‍💻 Development & Build
 
 1. Clone the repository
-2. Install VSCE globally: npm install -g vsce
+2. Install VSCE globally: npm install -g @vscode/vsce
 3. Install dependencies: `npm install`
 4. Build the extension: `npm run build`
 5. Package it as a .vsix file: `vsce package`
+
 
 
